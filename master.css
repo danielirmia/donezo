@@ -33,11 +33,11 @@ body{
 
 .userInfo:hover{
   cursor: pointer;
-  background-color: #00b8e6;
+  background-color: #007399;
 }
 
 .userInfo a:hover{
-  color : white;
+  color:white;
 }
 
 
@@ -89,7 +89,7 @@ label[for="nav-trigger"] {
   height: 30px;
   width: 30px;
   cursor: pointer;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect width='30' height='6'/><rect y='24' width='30' height='6'/><rect y='12' width='30' height='6'/></svg>");
+  //background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect width='30' height='6'/><rect y='24' width='30' height='6'/><rect y='12' width='30' height='6'/></svg>");
   background-size: contain;
   z-index: 2;
 }
@@ -147,4 +147,13 @@ ul li i{
 }
 ul li {
   font-size:23px;
+}
+
+#tana{
+  position: relative;
+  font-size: 36px;
+  color:#007399;
+  top:6px;
+  left:6px;
+  z-index: 5;
 }
