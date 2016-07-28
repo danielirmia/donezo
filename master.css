@@ -4,7 +4,7 @@ html{
 }
 
 body{
-  height: 5000px;
+  height: 900px;
   margin:0;
   padding:0;
   overflow-x: hidden;
@@ -102,7 +102,7 @@ label[for="nav-trigger"] {
   left: 190px;
 }
 
-.nav-trigger:checked ~ .site-wrap{
+.nav-trigger:checked ~ .site-wrap,.nav-trigger:checked ~ .footer{
   left: 140px;
 }
 .nav-trigger:checked ~ .navigation .iconita-collapsed{
@@ -156,4 +156,44 @@ ul li {
   top:6px;
   left:6px;
   z-index: 5;
+}
+
+.footer {
+    border-top:1px solid #cccccc;
+    background-color: #e6e6e6;
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin: 0 auto;
+    margin-left: 40px;
+    text-align: center;
+    color:#333333;
+}
+.footer-main{
+  display: inline-block;
+  color:#333333;
+}
+.contact ul{
+  margin: 0;
+  list-style: none;
+  display: inline-flex;
+}
+
+.contact ul li{
+  margin-left:40px;
+}
+.contact ul li a i{
+  color:#007399;
+}
+.contact ul li a i:hover{
+  color:white;
+}
+
+.footer-main p a{
+  text-decoration: none;
+  color:#333333;
+}
+
+.footer-main p a:hover{
+  color:white;
 }
