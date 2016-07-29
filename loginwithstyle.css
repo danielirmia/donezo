@@ -15,7 +15,7 @@ body{
       padding-right: 140px;
       margin-top: 250px;
       color:white;
-      background: linear-gradient(to right, #007399, #5ec1e2);
+      background: linear-gradient(to right, #007399, #006182);
 
 
       border: 2px solid gray;
@@ -100,6 +100,8 @@ form input[type=text],form input[type=password]{
 }
 .contact ul li a i:hover{
   color:white;
+  font-size: 24px;
+cursor: pointer;
 }
 
 .footer-main2 p a{
