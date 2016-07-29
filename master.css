@@ -66,6 +66,19 @@ body{
       border-right: 3px solid blanchedalmond;
       width: 137px;
   }
+  .submenu1{
+    list-style-type: none;
+    position: relative;
+    z-index: 6;
+    padding: 0;
+    border-right: 3px solid blanchedalmond;
+    width: 137px;
+  }
+  .submenu1 li{
+      position: static;
+      font-size: 19px;
+      z-index:6;
+  }
 
 .submenu li{
     position: static;
@@ -155,9 +168,11 @@ ul li i{
   color : white;
   font-size:12px;
 }
-
+.nav-item{
+  color:#cccccc;
+}
 .nav-item:hover{
-  color:blanchedalmond;
+  color:white;
   background-color: #0086b3;
   cursor: pointer;
   border-right: 4px solid blanchedalmond;
@@ -227,7 +242,6 @@ ul li {
   width: 100%;
   height: 500px;
 }
-
 
 .mainmenu li i{
   cursor: pointer;
