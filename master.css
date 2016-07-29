@@ -1,6 +1,5 @@
 html{
   font-family:"Open Sans";
-
 }
 
 body{
@@ -16,8 +15,8 @@ body{
   width: 100%;
   height: 45px;
   background-color: #ededed;
-  border-bottom: 1px solid #cccccc;
-  padding-right:45px;
+  border-bottom:1px solid #cccccc;
+
 }
 
 .userInfo {
@@ -54,9 +53,24 @@ body{
   z-index: 0;
 }
 
-.navigation ul{
+.navigation .mainmenu{
   padding-top: 45px;
   list-style-type: none;
+}
+
+.submenu{
+  list-style-type: none;
+      position: relative;
+      z-index: 6;
+      padding: 0;
+      border-right: 3px solid blanchedalmond;
+      width: 137px;
+  }
+
+.submenu li{
+    position: static;
+    font-size: 19px;
+    z-index:6;
 }
 .navigation div{
   width: 127px;
@@ -69,10 +83,10 @@ body{
   min-height: 100%;
   min-width: 100%;
   margin-left: 40px;
+  margin-top: 45px;
   position: relative;
   background-color:white;
   z-index: 1;
-  border-left:1px solid #cccccc
 }
 
 
@@ -117,9 +131,10 @@ label[for="nav-trigger"] {
 }
 .userInfo a{
   position: relative;
-  bottom: 15px;
+  bottom: 14px;
   text-decoration: none;
-  color: #3e3e3e;
+  color: #3E3E3F;
+  padding-left: 10px;
 }
 
 .iconita{
@@ -130,6 +145,7 @@ label[for="nav-trigger"] {
 }
 .iconita i{
   margin-right: 10px;
+  color: blanchedalmond;
 }
 
 ul li i{
@@ -141,10 +157,10 @@ ul li i{
 }
 
 .nav-item:hover{
-  color:white;
+  color:blanchedalmond;
   background-color: #0086b3;
   cursor: pointer;
-  border-right: 4px solid white;
+  border-right: 4px solid blanchedalmond;
 }
 ul li {
   font-size:23px;
@@ -192,9 +208,27 @@ ul li {
 
 .footer-main p a{
   text-decoration: none;
-  color:#333333;
+  color: #333333;
 }
 
 .footer-main p a:hover{
-  color:white;
+  color: white;
+}
+#content{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 0;
+}
+
+#content object{
+  margin-top: 30px;
+  width: 100%;
+  height: 500px;
+}
+
+
+.mainmenu li i{
+  cursor: pointer;
 }

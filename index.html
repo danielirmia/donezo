@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset="utf-8">
     <title></title>
@@ -12,16 +13,22 @@
   <body>
     <div class="navigation">
     <div class="iconita"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Donezo</div>
-<ul>
+<ul class="mainmenu">
   <li><i class="fa fa-bar-chart" aria-hidden="true"></i> <div class="nav-item">
     Project
 
-  </div> </li>
+  </div>
+</li>
   <li>
     <i class="fa fa-tasks" aria-hidden="true"></i>
     <div class="nav-item">
       Sprints
     </div>
+    <ul class="submenu">
+      <li><div class="nav-item">Sprint 1</div></li>
+      <li><div class="nav-item">Sprint 2</div></li>
+      <li><div class="nav-item">Sprint 3</div></li>
+    </ul>
 
   </li>
 <li>
@@ -29,6 +36,11 @@
 <div class="nav-item">
   Create
 </div>
+<ul class="submenu">
+  <li><div class="nav-item">Bug</div></li>
+  <li><div class="nav-item">Feature</div></li>
+  <li><div class="nav-item">Task</div></li>
+</ul>
 </li>
 </ul>
   </div>
@@ -44,7 +56,7 @@
            <i id="tana" class="fa fa-bars" aria-hidden="true"></i>
          </div>
      </div>
-     <div class="lala">
+     <div id="content">
      </div>
 
    </div>
@@ -63,4 +75,10 @@
       </div>
   </div>
   </body>
+  <script type="text/javascript">
+function load_home(){
+document.getElementById("content").innerHTML='<object type="text/html" data="home.html" ></object>';
+}
+//load_home();
+  </script>
 </html>
